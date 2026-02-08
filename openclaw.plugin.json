@@ -1,0 +1,23 @@
+{
+  "id": "content-moderation",
+  "name": "Content Moderation",
+  "description": "Message content moderation with keyword filtering",
+  "version": "1.0.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "enabled": {
+        "type": "boolean",
+        "default": true,
+        "description": "Enable content moderation"
+      },
+      "keywords": {
+        "type": "array",
+        "items": { "type": "string" },
+        "default": ["敏感词1", "敏感词2"],
+        "description": "Blocked keywords"
+      }
+    }
+  }
+}
