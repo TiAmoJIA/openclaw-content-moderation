@@ -1,0 +1,9 @@
+enabled: true
+mode: both
+keywords:
+  - 敏感词1
+  - 敏感词2
+whitelist: []
+stats:
+  totalChecks: 0
+  blocked: 0
