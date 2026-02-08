@@ -1,0 +1,6 @@
+# Content Moderation Plugin Config
+
+enabled: true
+keywords:
+  - 敏感词1
+  - 敏感词2
